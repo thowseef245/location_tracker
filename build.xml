@@ -27,7 +27,7 @@
 	</target>
 
 	<target name="deploy">
-		<copy file="dist/AntExample.war" todir="/usr/local/tomcat/webapps" overwrite="true">
+		<copy file="dist/AntExample.war" todir="/usr/local/apache-tomcat-8.5.34/webapps" overwrite="true">
 		</copy>
 	</target>
 	
